@@ -7,11 +7,9 @@ export default function NavBar() {
     <div >
       <nav class="navbar navbar-expand-lg bg-secondary">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#">
               <NavLink to="/">
               <img src={eye} alt="Eye" width="30" height="24" class="d-inline-block align-text-top"/>
               </NavLink>
-            </a>
             <h1>
                   Spicy Coco
             </h1>

@@ -1,0 +1,15 @@
+h1, h2, h3, a, p, .nav-link {
+    color: var(--bs-primary);
+}
+
+.nav-link {
+    text-align: center;
+}
+
+.nav-link:hover {
+    color:chartreuse;
+}
+
+.navbar-nav .nav-link.active {
+    color:blueviolet;
+}

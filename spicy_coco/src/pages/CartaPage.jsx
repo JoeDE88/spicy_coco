@@ -4,7 +4,7 @@ export default function CartaPage(){
     return (
         <>
         <Layout>
-        <h1>Esta es nuestra Carta</h1>
+            <h1 class="text-primary">Esta es nuestra Carta</h1>
         </Layout>
         </>
     )

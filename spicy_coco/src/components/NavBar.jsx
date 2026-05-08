@@ -12,7 +12,7 @@ export default function NavBar() {
               <img src={eye} alt="Eye" width="30" height="24" class="d-inline-block align-text-top"/>
               </NavLink>
             </a>
-            <h1 className='text-primary'>
+            <h1>
                   Spicy Coco
             </h1>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
@@ -30,9 +30,7 @@ export default function NavBar() {
                 <a class="nav-link" href="#">Contactos</a>
               </li>
             </ul>
-            <span class="navbar-text">
                 <a class="nav-link" href="#">Reservas</a>
-            </span>
           </div>
         </div>
       </nav>

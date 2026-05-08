@@ -5,6 +5,9 @@ export default function Footer(){
             <div className="container mt-3 py-3 px-3">
                 <div className="row">
                     <div className="col-3">Footer</div>
+                    <div className="col-3">
+                        <i class="bi bi-whatsapp"></i>
+                    </div>
                 </div>
             </div>
         </footer>

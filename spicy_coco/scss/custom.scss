@@ -2,5 +2,10 @@
     $body-bg: #FEFAE0,
     $secondary: #FEFAE0,
     $primary: #B7990D,
-)
+);
 
+// Update the import directory to point to it‘s location within node_modules
+$bootstrap-icons-font-dir: "../node_modules/bootstrap-icons/font/fonts";
+
+// Import the Sass files as usual
+@import "bootstrap-icons/font/bootstrap-icons";

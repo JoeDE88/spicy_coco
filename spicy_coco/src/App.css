@@ -19,3 +19,10 @@ h1, h2, h3, a, p, .nav-link {
     bottom: 0;
     background-color: var(--bs-primary);
 }
+
+@media (min-width:575px) {
+    .card-body {
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+}

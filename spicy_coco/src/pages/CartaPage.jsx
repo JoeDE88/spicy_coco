@@ -4,8 +4,10 @@ export default function CartaPage(){
     return (
         <>
         <Layout>
-            <h1 class="text-primary">Nuestros Platos</h1>
             <div className="container">
+                <div className="text-center my-3 py-2">
+                    <h1 class="text-primary">Nuestros Platos</h1>
+                </div>
                 <div className="row my-2">
                     <div className="col-12">
                         <div class="card mb-3" style={{maxwidth: "540px"}}>
@@ -16,8 +18,8 @@ export default function CartaPage(){
                                 <div class="col-md-8">
                                     <div class="card-body">
                                         <h5 class="card-title">Nombre del Plato</h5>
-                                        <p class="card-text">Descripción del plato como ingredientes, preparación</p>
-                                        <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                                        <p class="card-text">Descripción del plato como ingredientes, preparación y algunas cosita más.</p>
+                                        <p class="card-text"><small class="text-body-secondary">Otro tipo de texto (alérgenos o cosas así)</small></p>
                                     </div>
                                 </div>
                             </div>
@@ -34,8 +36,8 @@ export default function CartaPage(){
                                 <div class="col-md-8">
                                     <div class="card-body">
                                         <h5 class="card-title">Nombre del Plato</h5>
-                                        <p class="card-text">Descripción del plato como ingredientes, preparación</p>
-                                        <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                                        <p class="card-text">Descripción del plato como ingredientes, preparación y algunas cosita más.</p>
+                                        <p class="card-text"><small class="text-body-secondary">Otro tipo de texto (alérgenos o cosas así)</small></p>
                                     </div>
                                 </div>
                             </div>
@@ -52,8 +54,8 @@ export default function CartaPage(){
                                 <div class="col-md-8">
                                     <div class="card-body">
                                         <h5 class="card-title">Nombre del Plato</h5>
-                                        <p class="card-text">Descripción del plato como ingredientes, preparación</p>
-                                        <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                                        <p class="card-text">Descripción del plato como ingredientes, preparación y algunas cosita más.</p>
+                                        <p class="card-text"><small class="text-body-secondary">Otro tipo de texto (alérgenos o cosas así)</small></p>
                                     </div>
                                 </div>
                             </div>

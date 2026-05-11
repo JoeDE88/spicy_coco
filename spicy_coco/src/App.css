@@ -1,5 +1,6 @@
 h1, h2, h3, a, p, .nav-link {
     color: var(--bs-primary);
+    text-decoration: none;
 }
 
 .nav-link {
@@ -44,14 +45,26 @@ h1, h2, h3, a, p, .nav-link {
     font-size: 0.8rem;
 }
 
+.main-title-pc {
+    visibility: collapse;
+}
+
 @media (min-width:575px) {
+    .main-title-mobile {
+        visibility: collapse;
+    }
+    .main-title-pc {
+        font-size: 3rem;
+        visibility: visible;
+    }
+
     .card-body {
         padding-top: 2rem;
         padding-bottom: 2rem;
     }
 
 
-.bi {
-    font-size: 1.8rem;
-}
+    .bi {
+        font-size: 1.8rem;
+    }
 }

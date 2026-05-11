@@ -10,7 +10,9 @@ export default function NavBar() {
               <NavLink to="/">
               <img src={eye} alt="Eye" width="30" height="24" class="d-inline-block align-text-top"/>
               </NavLink>
-            <h1>Spicy Coco</h1>
+              <NavLink to="/" className='main-title-mobile'>
+            <h1 >Spicy Coco</h1>
+              </NavLink>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
               <i class="bi bi-list"></i>
           </button>

@@ -11,7 +11,15 @@ h1, h2, h3, a, p, .nav-link {
 }
 
 .navbar-nav .nav-link.active {
-    color:blueviolet;
+    color:black;
+}
+
+.navbar-toggler {
+    color: var(--bs-primary);
+}
+
+.navbar-toggler-icon {
+    color: var(--bs-primary);
 }
 
 .bd-footer {

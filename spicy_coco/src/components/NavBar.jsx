@@ -10,11 +10,9 @@ export default function NavBar() {
               <NavLink to="/">
               <img src={eye} alt="Eye" width="30" height="24" class="d-inline-block align-text-top"/>
               </NavLink>
-            <h1>
-                  Spicy Coco
-            </h1>
+            <h1>Spicy Coco</h1>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
+              <i class="bi bi-list"></i>
           </button>
           <div class="collapse navbar-collapse" id="navbarText">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
@@ -33,5 +31,5 @@ export default function NavBar() {
         </div>
       </nav>
     </div>
-)
+  )
 }

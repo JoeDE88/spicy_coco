@@ -28,9 +28,30 @@ h1, h2, h3, a, p, .nav-link {
     background-color: var(--bs-primary);
 }
 
+.card {
+    border: none;
+}
+
+.bi {
+    font-size: 1.4rem;
+}
+
+.icon-text, .footer-text {
+    margin-bottom: 0;
+}
+
+.footer-text {
+    font-size: 0.8rem;
+}
+
 @media (min-width:575px) {
     .card-body {
         padding-top: 2rem;
         padding-bottom: 2rem;
     }
+
+
+.bi {
+    font-size: 1.8rem;
+}
 }

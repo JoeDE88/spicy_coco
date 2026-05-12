@@ -47,6 +47,7 @@ h1, h2, h3, a, p, .nav-link {
 
 .btn-h1 {
     border: none;
+    width: 200px;
     border-radius: 10px;
     background-color: var(--bs-secondary);
 }
@@ -71,8 +72,13 @@ h1, h2, h3, a, p, .nav-link {
 
 @media (min-width:575px) {
     .logo {
-        width: 200px;
-        height: 200px;
+        width: 120px;
+        height: 120px;
+    }
+
+    .btn-h1 {
+        width: 0px;
+        height: 0px;
     }
 
     .main-title-mobile {

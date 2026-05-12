@@ -10,11 +10,12 @@ export default function NavBar() {
       <nav class="navbar navbar-expand-lg bg-secondary">
         <div class="container-fluid">
               <NavLink to="/">
-              <img src={logo} alt="Logo" width="90" height="90" class="d-inline-block align-text-top logo"/>
+              <img src={logo} alt="Logo" width="66" height="66" class="d-inline-block align-text-top logo"/>
               </NavLink>
-              <NavLink to="/" className='main-title-mobile'>
-                <Button btn={<img src={title} alt="title" class="btn-h1 d-inline-block align-text-top"/>
-}></Button>
+              <NavLink to="/">
+              <div className="d-inline-block align-text-top">
+              <img src={title} alt="title" className="mt-2 main-title-mobile"/>
+              </div>
               </NavLink>
           <button class="navbar-toggler btn-menu" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
               <i class="bi bi-list"></i>

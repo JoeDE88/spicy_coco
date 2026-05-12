@@ -45,11 +45,36 @@ h1, h2, h3, a, p, .nav-link {
     font-size: 0.8rem;
 }
 
-.main-title-pc {
-    visibility: collapse;
+.btn-h1 {
+    border: none;
+    border-radius: 10px;
+    background-color: var(--bs-secondary);
+}
+
+.btn-menu {
+    transition: box-shadow 2s ease-in-out;
+}
+
+.btn-menu:click{
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+@media (max-width:574px) {
+    .main-title-pc {
+        visibility: collapse;
+    }
+    
+    .main-title-mobile {
+        visibility: visible;
+    }
 }
 
 @media (min-width:575px) {
+    .logo {
+        width: 200px;
+        height: 200px;
+    }
+
     .main-title-mobile {
         visibility: collapse;
     }

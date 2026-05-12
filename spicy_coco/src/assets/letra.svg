@@ -1,6 +1,6 @@
 <svg width="400" height="150" viewBox="0 0 400 150" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <g clip-path="url(#clip0_1_13)">
-<rect width="400" height="150" fill="white"/>
+<rect width="400" height="150" fill="#EEEAD7"/>
 <mask id="mask0_1_13" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="-77" y="9" width="553" height="132">
 <rect x="-76.4193" y="9.54251" width="552.02" height="130.664" fill="url(#pattern0_1_13)"/>
 </mask>

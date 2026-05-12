@@ -2,6 +2,7 @@
 <g clip-path="url(#clip0_1_3)">
 <rect width="750" height="675" fill="white"/>
 <g clip-path="url(#clip1_1_3)">
+<rect width="1024" height="1024" transform="translate(-154 -62)" fill="#EEEAD7"/>
 <mask id="mask0_1_3" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="-154" y="-62" width="1024" height="1024">
 <rect x="-154" y="-62" width="1024" height="1024" fill="url(#pattern0_1_3)"/>
 </mask>
